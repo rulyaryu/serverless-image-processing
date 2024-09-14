@@ -1,0 +1,21 @@
+{
+  "name": "serveless-thumbnailer",
+  "version": "0.0.1",
+  "description": "function for making image thumbs with sharp",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "bash scripts/deploy.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rulya",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.515.0",
+    "@aws-sdk/lib-storage": "^3.515.0",
+    "sharp": "^0.32.6"
+  }
+}
